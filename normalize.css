@@ -1,0 +1,65 @@
+header {
+	text-align:center;
+	}
+	
+img {
+	margin: 40px 0px 0px 0px;
+	border: 2px solid black;
+	border-radius: 20px;
+	}
+
+body {
+	text-align: center;
+	background: #ecf0f1;
+	background-position: center;
+	
+}
+
+h1 {
+	font-family: 'Days One', sans-serif;
+	
+	}
+	
+h3 {
+	font-family: 'Days One', sans-serif;
+	
+	}
+	
+p {
+	font-family: helvetica;
+	font-size: 16px;
+	}
+	
+input {
+	border: 1px;
+	padding: 10px;
+	font-size: 14px;
+
+	}
+
+input[type="submit"] {
+	background: #1abc9c;
+	
+	}
+	
+ul {
+	padding: 10px;
+	background: #34495e;
+	}
+
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	}
+a {
+	color: white;
+	
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 36px;
+	}
+}
+
+	

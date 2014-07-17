@@ -1,0 +1,57 @@
+<!doctype html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+<title>About Me</title>
+<link rel="stylesheet" type="text/css" href="normalize.css">
+
+
+
+
+
+
+
+</head>
+
+<body>
+	<header>
+		<img src="http://i.imgur.com/EDpnHMc.jpg" title="Hosted by imgur.com"/>
+		<h1>Darrel Adams</h1>
+<script>
+
+	var today = new Date();
+	var hourNow = today.getHours();
+	var greeting;
+
+if (hourNow > 18) {
+	greeting = 'Good evening!';
+	}
+
+else if (hourNow > 12) {
+	greeting = 'Good afternoon!';
+	}
+
+else if (hourNow > 0) {
+	greeting = 'Good morning!';
+	}
+	
+else {
+	greeting = 'Welcome to my page!';
+	}
+
+document.write('<h3>' + greeting + '</h3>');
+</script>
+		<ul>
+			<li><a href="#">About Me</a></li>
+			<li><a href="#">Contact Me</a></li>
+			<li><a href="#">My Favorite Links</a></li>
+		</ul>
+		<p>Hello! My name is Darrel Adams! I'm just a guy who's just trying to learn front-end development!</p>
+	</header>
+<input type="email" placeholder="Your Email">
+<input type="submit">
+
+
+</body>
+
+</html>
